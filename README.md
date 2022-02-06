@@ -9,9 +9,11 @@ O link para a Dica da Adriana sobre como usar a Udemy.
 https://www.youtube.com/watch?v=25NT8QyytP0
 
 O link para a Dicas de Editores de Texto:
+
 https://www.youtube.com/watch?v=C3jE5qK04UI
 
 E para a Dica sobre IDE's:
+
 https://www.youtube.com/watch?v=g_fnVN_drVw&list=PLhx-V5qg9T6SlJVTKw6r87QOkFE0g_3kz
 
 E não se esqueça, se interessar se inscreva no meu Newsletter, link abaixo:
