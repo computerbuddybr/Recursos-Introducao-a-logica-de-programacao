@@ -1,5 +1,5 @@
-# Introdução à Lógica de Programação com JqavaScript
-Recursos do meu curso de Introdução à lógica de programação usando o JavaScript que você encontra da Udemy.com no link: .
+# Introdução à Lógica de Programação com JavaScript
+Recursos do meu curso de Introdução à lógica de programação usando o JavaScript que você encontra na Udemy.
 Aqui você encontrará exemplos de códigos em JavaScript de alguns dos conceitos abordados.
 
 Além disso, seguem os links que podem ser interessantes para você:
