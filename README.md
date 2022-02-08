@@ -26,6 +26,9 @@ http://facebook.com/ComputerBuddyBR
 
 http://twitter.com/ComputerBuddyBR
 
+E meu canal do YouTube com Dicas:
+https://www.youtube.com/computerbuddybr
+
 E eu também criei um Grupo do Facebook para os alunos poderem interagir entre si. Se interessar, corre lá:
 
 https://www.facebook.com/groups/computerbuddybr
