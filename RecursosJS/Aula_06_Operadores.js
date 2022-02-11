@@ -27,7 +27,7 @@ a +=b;
 console.log(a);
 
 //Operadores de Comparação
-console.log("Operadores Comparaçã0: ");
+console.log("Operadores de Comparação: ");
 console.log(a < b);
 console.log(a <= b);
 console.log(b == d);
