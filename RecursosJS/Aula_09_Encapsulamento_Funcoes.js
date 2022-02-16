@@ -15,18 +15,21 @@ function minhaSegundaFuncao(a,b){
 
 }
 
-//Uma função nque mostra precedência de operadores
+//Uma função que mostra precedência de operadores
 function precedenciaDeOperadores(primeiroParametro, segundoParametro){
     console.log("Adicionando os parâmetros com precedência temos: " + (primeiroParametro * segundoParametro));
 }
 
 
-//Agora posso repetir as função quantes vezes quiser no meu código com valores diferentes
+//Agora posso repetir as função quantas vezes quiser no meu código com valores diferentes
 
-//Atribuindo o valor do retorno à uma variável
+//Atribuindo o valor do retorno a uma variável
 let minhaVar = minhaPrimeiraFuncao(2,3);
 console.log(minhaVar);
+
+//Neste caso estou dando uma função como argumento para o meu método log, que nada mais é do que uma função do objeto console. Aqui é importante entender que o que será fornecido ao método log será o retorno da função minhaPrimeiraFuncao
 console.log(minhaPrimeiraFuncao(minhaVar, minhaVar));
+
 console.log(minhaVar);
 
 //Simplesmente chamando funções
