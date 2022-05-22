@@ -1,7 +1,8 @@
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EstrurasDeDados {
+public class EstrurasDeDados{
     public void apresentandoEstruturas() {
 
         //Em Java, vetores ou Arrays tem número fixo de elementos que determino ao declarar a variável
@@ -25,6 +26,11 @@ public class EstrurasDeDados {
             int elementoLista = listaNumeros.remove(0);
             System.out.printf("%d ", elementoLista);
 
+        }
+        //For each do Java
+        for (Integer numero:
+                listaNumeros) {
+            System.out.println(numero);
         }
 
 

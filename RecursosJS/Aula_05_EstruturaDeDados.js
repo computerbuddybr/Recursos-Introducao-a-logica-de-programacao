@@ -4,4 +4,16 @@
 let souUmArray = ["Um Array", "Tem muitos elementos", "E dependendo da linguagem", "podem ser elementos do mesmo tipo", "ou de tipos diferentes", true, 2];
 
 //Uma matriz ou array multidimensional
-let umArrayMulti = [[1,2], ["Novo Array", "Dentro do Array"]];
+let umArrayMulti = [
+    [1,2],
+    ["Novo Array", "Dentro do Array", true]
+];
+
+//console.log(souUmArray);
+//souUmArray.push("Novo elemento");
+
+let meuString = "Meu string";
+
+console.log(souUmArray[1]);
+console.log(umArrayMulti[1][2]);
+console.log(meuString[2]);

@@ -1,4 +1,13 @@
 public class TiposDeDados {
+
+    private int numero1;
+    private int numero2;
+
+    TiposDeDados(int a, int b){
+        this.numero1 = a;
+        this.numero2 = b;
+
+    }
     public void apresentandoTipos() {
         //Tipos de Dados para números inteiros
         byte souUmByte = 127; // De -128 a 127
@@ -26,4 +35,13 @@ public class TiposDeDados {
         System.out.println(souUmCaractere);
         System.out.println(souUmBooleano);
     }
+
+    protected int multiplicar (){
+        return this.numero1 * this.numero2;
+    }
+
+    int soma(){
+        return this.numero1 + this.numero2;
+    }
+
 }

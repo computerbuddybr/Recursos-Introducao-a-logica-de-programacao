@@ -18,6 +18,7 @@ class Pessoa {
         console.log(`Sou ${this.nome} ${this.sobrenome} e tenho ${this.idade}`);
     }
 
+
 }
 
 //Herança

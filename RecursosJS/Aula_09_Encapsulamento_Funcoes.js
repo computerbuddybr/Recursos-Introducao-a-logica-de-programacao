@@ -3,6 +3,8 @@ function minhaPrimeiraFuncao(primeiroParametro, segundoParametro){
     if(primeiroParametro == 4){
         return "Oopsie";
     }
+    console.log("Primeiro paramêtro: " + primeiroParametro);
+    console.log("Segundo paramêtro: " + segundoParametro);
 
     return primeiroParametro * segundoParametro;
     console.log("depois do return");
@@ -11,7 +13,7 @@ function minhaPrimeiraFuncao(primeiroParametro, segundoParametro){
 //Função sem retorno
 function minhaSegundaFuncao(a,b){
 
-    console.log("Adicionando os parâmetros temos: " + minhaPrimeiraFuncao(a,b));
+    console.log("Adicionando os parâmetros temos: " + minhaPrimeiraFuncao(b,a));
 
 }
 
@@ -20,6 +22,19 @@ function precedenciaDeOperadores(primeiroParametro, segundoParametro){
     console.log("Adicionando os parâmetros com precedência temos: " + (primeiroParametro * segundoParametro));
 }
 
+//Função com funcção como parametro
+function imprimir(minhaFuncao){
+    console.log(minhaFuncao);
+}
+function rodarFuncao(funcao){
+    console.log(funcao(2,3));
+}
+
+function soma(a,b){
+    return a + b;
+}
+rodarFuncao(soma);
+imprimir(soma(2,5));
 
 //Agora posso repetir as função quantas vezes quiser no meu código com valores diferentes
 
