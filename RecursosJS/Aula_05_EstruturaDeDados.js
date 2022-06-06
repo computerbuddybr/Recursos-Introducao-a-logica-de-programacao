@@ -14,6 +14,8 @@ let umArrayMulti = [
 
 let meuString = "Meu string";
 
-console.log(souUmArray[1]);
-console.log(umArrayMulti[1][2]);
-console.log(meuString[2]);
+// console.log(souUmArray[1]);
+// console.log(umArrayMulti[1][2]);
+// console.log(meuString[2]);
+console.log(umArrayMulti);
+console.log(umArrayMulti.length);

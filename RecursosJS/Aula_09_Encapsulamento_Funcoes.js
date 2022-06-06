@@ -1,5 +1,22 @@
 //Função com retorno
+let a = 20;
+function dobrar(){
+    a *= 2;
+}
+dobrar();
+dobrar();
+console.log(a);
+
+/**
+ * Exemplo de primeira função
+ * @param primeiroParametro
+ * @param segundoParametro
+ * @returns {string|number}
+ */
+
 function minhaPrimeiraFuncao(primeiroParametro, segundoParametro){
+    meuNomeLocal = "Local";
+    console.log(meuNomeLocal);
     if(primeiroParametro == 4){
         return "Oopsie";
     }
@@ -9,7 +26,8 @@ function minhaPrimeiraFuncao(primeiroParametro, segundoParametro){
     return primeiroParametro * segundoParametro;
     console.log("depois do return");
 }
-
+minhaPrimeiraFuncao(2,5);
+//console.log(meuNomeLocal);
 //Função sem retorno
 function minhaSegundaFuncao(a,b){
 
@@ -19,7 +37,7 @@ function minhaSegundaFuncao(a,b){
 
 //Uma função que mostra precedência de operadores
 function precedenciaDeOperadores(primeiroParametro, segundoParametro){
-    console.log("Adicionando os parâmetros com precedência temos: " + (primeiroParametro * segundoParametro));
+    console.log("Multiplicando os parâmetros com precedência temos: " + (primeiroParametro * segundoParametro));
 }
 
 //Função com funcção como parametro
@@ -33,19 +51,19 @@ function rodarFuncao(funcao){
 function soma(a,b){
     return a + b;
 }
-rodarFuncao(soma);
-imprimir(soma(2,5));
-
-//Agora posso repetir as função quantas vezes quiser no meu código com valores diferentes
-
-//Atribuindo o valor do retorno a uma variável
-let minhaVar = minhaPrimeiraFuncao(2,3);
-console.log(minhaVar);
-
-//Neste caso estou dando uma função como argumento para o meu método log, que nada mais é do que uma função do objeto console. Aqui é importante entender que o que será fornecido ao método log será o retorno da função minhaPrimeiraFuncao
-console.log(minhaPrimeiraFuncao(minhaVar, minhaVar));
-
-console.log(minhaVar);
+// rodarFuncao(soma);
+// imprimir(soma(2,5));
+//
+// //Agora posso repetir as função quantas vezes quiser no meu código com valores diferentes
+//
+// //Atribuindo o valor do retorno a uma variável
+// let minhaVar = minhaPrimeiraFuncao(2,3);
+// console.log(minhaVar);
+//
+// //Neste caso estou dando uma função como argumento para o meu método log, que nada mais é do que uma função do objeto console. Aqui é importante entender que o que será fornecido ao método log será o retorno da função minhaPrimeiraFuncao
+// console.log(minhaPrimeiraFuncao(minhaVar, minhaVar));
+//
+// console.log(minhaVar);
 
 //Simplesmente chamando funções
 minhaSegundaFuncao(2,5);

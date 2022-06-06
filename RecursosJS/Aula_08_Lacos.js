@@ -7,14 +7,13 @@ let souUmArray = ["Um Array", "Tem muitos elementos", "E dependendo da linguagem
 for(let w = 0; w < souUmArray.length; w++){
     console.log(souUmArray[w]);
 }
-//
-// let novoArray = [];
-// let input = prompt("Quantos elementos?");
-// for(let w = 0; w < input; w++){
-//     novoArray.push(prompt("Novo elemento:"));
-//
-// }
-// console.log(novoArray);
+let novoArray = [];
+let input = prompt("Quantos elementos?");
+for(let w = 0; w < input; w++){
+    novoArray.push(prompt("Novo elemento:"));
+
+}
+console.log(novoArray);
 
 
 console.log("##########");

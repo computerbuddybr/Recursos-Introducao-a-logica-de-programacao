@@ -22,15 +22,16 @@ public class EstrurasDeDados{
             listaNumeros.add(a);
 
         }
-        while (!listaNumeros.isEmpty()) {
-            int elementoLista = listaNumeros.remove(0);
-            System.out.printf("%d ", elementoLista);
-
-        }
         //For each do Java
         for (Integer numero:
                 listaNumeros) {
             System.out.println(numero);
+        }
+
+        while (!listaNumeros.isEmpty()) {
+            int elementoLista = listaNumeros.remove(0);
+            System.out.printf("%d ", elementoLista);
+
         }
 
 

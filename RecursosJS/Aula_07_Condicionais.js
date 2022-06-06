@@ -15,6 +15,16 @@ if (a == b) {
     console.log("a não é igual a b nem c");
 }
 
+
+if (a == b) {
+    d = a + 2;
+    console.log("a é igual a b");
+    console.log(d);
+}
+if (a == c) {
+    console.log("a não é igual a b mas é igual a c");
+}
+
 switch (a) {
     case 0 :
         console.log("a é igual a 0");

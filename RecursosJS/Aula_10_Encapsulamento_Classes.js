@@ -43,7 +43,7 @@ console.log(paula);
 
 console.log(adriana.identidade.identidade);
 
-let max = new Aluno("Max", "Silva", 22, "Engenharia da Computação", "Terceiro");
+let max = new Aluno("Max", "Silva", 22, 4444, "Engenharia da Computação", "Terceiro");
 
 //Agora por herança este objeto tem acesso aos métodos e propriedades da Classe Pessoa
 max.apresentando();
