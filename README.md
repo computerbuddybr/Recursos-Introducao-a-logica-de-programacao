@@ -1,6 +1,6 @@
 # Introdução à Lógica de Programação com JavaScript
-Recursos do meu curso de Introdução à lógica de programação usando o JavaScript que você encontra na Udemy.
-Aqui você encontrará exemplos de códigos em JavaScript de alguns dos conceitos abordados.
+Recursos do meu curso de Introdução à lógica de programação que você encontra na Udemy.
+Aqui você encontrará exemplos de códigos em JavaScript e Java de alguns dos conceitos abordados.
 
 Além disso, seguem os links que podem ser interessantes para você:
 
@@ -8,13 +8,10 @@ O link para a Dica da Adriana sobre como usar a Udemy.
 
 https://www.youtube.com/watch?v=25NT8QyytP0
 
-O link para a Dicas de Editores de Texto:
+O link para a playlist com Dicas Úteis:
 
-https://www.youtube.com/watch?v=C3jE5qK04UI
+https://www.youtube.com/playlist?list=PLhx-V5qg9T6SrWJsaMhg661pZ32LlD5aO
 
-E para a Dica sobre IDE's:
-
-https://www.youtube.com/watch?v=g_fnVN_drVw&list=PLhx-V5qg9T6SlJVTKw6r87QOkFE0g_3kz
 
 E não se esqueça, se interessar se inscreva no meu Newsletter, link abaixo:
 
